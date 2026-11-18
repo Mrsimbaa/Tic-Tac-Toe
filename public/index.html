@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Jay-Den's Multiplayer Tic-Tac-Toe</h1>
+
+<!-- Player login -->
+<div id="login">
+    <input id="nameInput" placeholder="First Name">
+    <input id="passwordInput" type="password"
+           placeholder="Password">
+    <button id="joinBtn">Join Game</button>
+</div>
+
+<!-- Player role and game status -->
+<div id="role"></div>
+<div id="status"></div>
+
+<!-- Game board -->
+<canvas id="board" width="600" height="600"></canvas>
+
+<!-- Reset button -->
+<button id="resetBtn">Reset Game</button>
+
+<script src="client.js"></script>
+
+</body>
+</html>
